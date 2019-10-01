@@ -17,7 +17,7 @@ end
 def reduce_to_total(source_array, starting_point=0)
   total = 0
   counter = 0
-  while counter < array 
+  while counter < array.size do
 end
 
 def reduce_to_all_true(source_array)
