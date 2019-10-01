@@ -29,6 +29,8 @@ def reduce_to_all_true(source_array)
   while counter < source_array.size do
     return false if CONDITION
     counter += 1
+  end
+  true
 end
 
 def reduce_to_any_true(source_array)
