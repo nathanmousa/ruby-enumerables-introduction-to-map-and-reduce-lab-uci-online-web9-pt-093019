@@ -21,7 +21,7 @@ def reduce_to_total(source_array, starting_point=0)
     total += source_array[counter]
     counter += 1
   end
-  return true
+  total
 end
 
 def reduce_to_all_true(source_array)
@@ -30,7 +30,7 @@ def reduce_to_all_true(source_array)
     return false if CONDITION
     counter += 1
   end
-  true
+  return 
 end
 
 def reduce_to_any_true(source_array)
