@@ -30,7 +30,7 @@ def reduce_to_all_true(source_array)
     return false if CONDITION
     counter += 1
   end
-  return 
+  return true
 end
 
 def reduce_to_any_true(source_array)
